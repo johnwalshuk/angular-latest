@@ -3,8 +3,7 @@ services:
 services:
   app:
     build: .
-    # command: sh -c "npm start"
-    command: tail -F anything
+    command: sh -c "npm start"
     ports:
       - 4200:4200
     working_dir: /home/node/app
